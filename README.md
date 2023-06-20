@@ -39,14 +39,6 @@ The app has the following dependencies:
 
 Make sure to install these packages before running the app.
 
-## Acknowledgments
-
-This app is for educational purposes and was created using the Shiny package in R.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Author
 
 Ambu Vijayan
