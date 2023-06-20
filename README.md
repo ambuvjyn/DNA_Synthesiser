@@ -11,8 +11,10 @@ This Shiny app generates a DNA sequence based on user-defined parameters such as
 
 ## Instructions
 
-1. Install the required packages by running the following command in R: `install.packages(c("shiny"))`
-
+1. Install the required packages by running the following commands in R:
+   ```R
+   install.packages(c("shiny", "markdown"))
+   ```
 2. Download or clone the repository to your local machine.
 
 3. Open R or RStudio and set the working directory to the folder containing the app files.
