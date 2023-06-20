@@ -1,0 +1,72 @@
+---
+title: "DNA Sequence Generator"
+author: "Ambu Vijayan"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    widescreen: true
+---
+
+# Slide 1: DNA Sequence Generator
+### Pitch Presentation
+
+# Slide 2: Problem Statement
+
+## Problem Statement
+- Generating DNA sequences manually can be time-consuming and prone to errors.
+- Researchers and bioinformaticians often require quick and accurate generation of DNA sequences for their experiments.
+- Existing tools may lack flexibility or are not easily accessible.
+
+
+# Slide 3: Solution
+
+## Solution: DNA Sequence Generator
+- An intuitive and user-friendly web application.
+- Generates DNA sequences based on user-defined parameters.
+- Provides flexibility in sequence length, custom naming, and color-coding of nucleotides.
+- Saves time and reduces errors in DNA sequence generation.
+
+# Slide 4: How It Works
+
+## How It Works
+1. Adjust the sequence length using a slider.
+2. Specify a custom name for the sequence.
+3. Choose to enable or disable color-coding of nucleotides.
+4. Click the "Generate Sequence" button.
+5. The generated DNA sequence is displayed in real-time.
+
+# Slide 4.1: How It Works
+
+## How It Works
+
+```{r, echo=TRUE}
+# Embedded R code
+seq_length <- 50
+sequence_name <- "MySequence"
+color_coding <- TRUE
+
+# Generate DNA sequence
+dna_sequence <- paste(sample(c("A", "T", "G", "C"), seq_length, replace = TRUE), collapse = "")
+
+# Color coding
+if (color_coding) {
+  dna_sequence <- gsub("A", "<span style='color:red'>A</span>", dna_sequence)
+  dna_sequence <- gsub("T", "<span style='color:green'>T</span>", dna_sequence)
+  dna_sequence <- gsub("G", "<span style='color:yellow'>G</span>", dna_sequence)
+  dna_sequence <- gsub("C", "<span style='color:black'>C</span>", dna_sequence)
+}
+```
+
+# Slide 5: Use Cases and Benefits
+
+## Use Cases and Benefits
+- Research laboratories: Streamlines experimental workflows.
+- Bioinformatics analysis: Enables quick testing and validation of algorithms.
+- Educational purposes: Facilitates learning and teaching of DNA sequence generation.
+- Accurate and customizable results.
+- Simplifies complex tasks and reduces errors.
+
+## Thank You!
+
+### Thank you for viewing my presentation!
+

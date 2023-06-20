@@ -1,13 +1,14 @@
 name: DNA_Synthesizer
-title: DNA_Synthesizer
+title:
 username:
 account: 8bftgi-ambu-vijayan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9336638
-bundleId: 7365856
+bundleId: 7365878
 url: https://8bftgi-ambu-vijayan.shinyapps.io/DNA_Synthesizer/
-when: 1687255509.25183
-lastSyncTime: 1687255509.25184
+when: 1687255832.25651
+lastSyncTime: 1687255832.25652
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: .RData
